@@ -56,6 +56,10 @@ hr{
     border-top: 0px;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 #nav-list.nav.navbar-nav.navbar-right li
 {
     color: #541412;
