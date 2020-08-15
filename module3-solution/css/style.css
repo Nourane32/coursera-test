@@ -1,0 +1,104 @@
+body{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #541412;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header {
+    height: 5em;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand h1 { /* Food, LLC */
+    color: #D69F3A;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #D69F3A;
+}
+
+button.navbar-toggle{
+    margin-top: 20px;
+}
+
+#collapsable-nav{
+    visibility: hidden;
+}
+
+
+hr{
+    border: 1px solid #541412;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-collapse
+{
+    border-top: 0px;
+}
+
+#nav-list.nav.navbar-nav.navbar-right li
+{
+    color: #541412;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/**MAIN CONTENT**/
+#head2 h1{
+    color: #C34F5A;
+    padding: 20px;
+}
+
+
+.col-md-4, .col-sm-6, .col-sm-12, .col-xs-12{
+    object-position: center;
+}
+
+#chicken, #beef, #sushi{
+    background-color: #F8D4BA;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#title{
+    font-size: 1.5em;
+    color: #2F365F;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#description{
+    text-align: justify;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #collapsable-nav{
+        background-color: #D69F3A;
+        visibility: visible;
+        border: 1px solid #541412;
+    }
+}
