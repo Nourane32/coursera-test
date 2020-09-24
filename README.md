@@ -1,5 +1,5 @@
-# HTML, CSS and Javascript for Web Developers Assignments Solutions
+# HTML, CSS and Javascript for Web Developers Assignments' Solution
 
-This is Coursera course is offered by the university of John Hopkins.
+This is a Coursera course offered by the university of John Hopkins.
 
 This repository contains my solutions to the course assignments.
